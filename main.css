@@ -4,10 +4,11 @@ margin:0 auto;
 }
 
 .hname {
-font-size:50px;
+font-size:49px;
 text-align:left;
 color:#362416;
 font-family:Arial;
+font-weight:400;
 }
 
 .hbutton {
@@ -18,7 +19,6 @@ transition:width .3s;
 -webkit-transition:width .3s;
 -o-transition:width .3s;
 float:left;
-overflow:hidden;
 font-size:35px;
 }
 
@@ -46,13 +46,20 @@ a:link{color:black;}
 .hwhead {border-bottom:thick solid #f6e8b1;
 	border-bottom-width:20px;}
 .hchead {border-bottom:thick solid #89725b;
-	border-bottom-width:20px;}
+	border-bottom-width:20px;
+	overflow:hidden;}
 
 .hmlink {background-color:#b0cc99;}
 .hblink {background-color:#677e52;}
 .hplink {background-color:#b7ca79;}
 .hwlink {background-color:#f6e8b1;}
 .hclink { background-color:#89725b;}
+
+.hmborder {border-color:#b0cc99;}
+.hbborder {border-color:#677e52;}
+.hpborder {border-color:#b7ca79;}
+.hwborder {border-color:#f6e8b1;}
+.hcborder {border-color:#89725b;}
 
 .toolbar {
 border-bottom:solid thick #89725b;
@@ -71,6 +78,15 @@ width:900px;
 min-height:400px;
 padding:40px 0;
 margin:0 0 30px 0;
+}
+
+.cblock {
+width:870px;
+min-height:100px;
+border-width:5px;
+border-style:solid;
+padding:15px;
+margin:0 0 10px;
 }
 
 .box {
